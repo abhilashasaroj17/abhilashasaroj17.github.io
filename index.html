@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0f2742">
+<meta name="theme-color" content="#183a2d">
 <meta name="description" content="Abhilasha J. Saroj, Ph.D. — computational intelligence, digital twins, machine learning, simulation, optimization, and interconnected infrastructure research at Oak Ridge National Laboratory.">
 <meta property="og:type" content="website"><meta property="og:title" content="Abhilasha J. Saroj, Ph.D. | Research & Teaching"><meta property="og:description" content="Computational intelligence for mobility and interconnected infrastructure.">
 <title>Abhilasha J. Saroj, Ph.D. | Research • Teaching • Publications</title>
@@ -69,6 +69,74 @@ body{background:var(--paper)}
 
 /* Education entries without date column */
 .background-section .degree{display:block}
+
+/* Forest green and cream academic theme with a larger above-waist portrait. */
+:root{--night:#183a2d;--mint:#a8c49d;--ink:#243a30;--paper:#f6f2e9;--sea:#6e8b74;--line:#d9dfd3}
+body{background:var(--paper);color:var(--ink)}
+a:hover{color:#386a50}
+.topbar{background:#183a2d;border-bottom:1px solid #315541}
+.brand{color:#f6f2e9}.brand-mark{background:#f6f2e9;color:#183a2d}.mark-dot,.accent-period{color:#95bb9b}
+.nav-links>a{color:#f6f2e9}.nav-links>a:hover{color:#d5e3c4}
+.nav-links .nav-cv{color:#183a2d;background:#c6a15b}
+.nav-links .nav-cv:hover{color:#183a2d;background:#e0c58d}
+.hero{background:linear-gradient(90deg,rgba(16,48,34,.93) 0%,rgba(16,48,34,.80) 47%,rgba(16,48,34,.37) 83%,rgba(16,48,34,.28) 100%),url("assets/network-road-river-hero.webp") center 56%/cover no-repeat;color:#f6f2e9}
+.hero-content{max-width:1130px;grid-template-columns:230px minmax(0,1fr);column-gap:38px;row-gap:15px;padding:66px 0 66px}
+.hero-content>.eyebrow{color:#dbedce}
+.status-pip{background:#c6a15b}
+.hero-avatar{width:230px;height:335px;grid-column:1;grid-row:2/7;object-fit:cover;object-position:center 45%;border-radius:18px;border:3px solid #f0e6d3;box-shadow:0 20px 45px rgba(2,28,19,.38);align-self:center}
+.hero-name{grid-column:2;grid-row:2;font:normal clamp(32px,3vw,44px)/1.12 var(--serif);color:#fffaf0}
+.hero h1{grid-column:2;grid-row:3;font:normal 23px/1.42 Arial,sans-serif;letter-spacing:0;max-width:770px}
+.hero h1 em{color:#e1ca96}
+.hero-intro{grid-column:2;grid-row:4;color:#ecf1e7;max-width:690px;font-size:15px;line-height:1.75;margin:0}
+.hero-actions{grid-column:2;grid-row:5}
+.hero-socials{grid-column:2;grid-row:6;color:#e3ecdd}
+.hero-socials a:hover{color:#d6eeb7}
+.btn-light{background:#c6a15b;border-color:#c6a15b;color:#19352a}
+.btn-light:hover{background:#e1c687;border-color:#e1c687;color:#19352a}
+.btn-outline{border-color:#d5e4cd;color:#f9fbf6}
+.btn-outline:hover{border-color:#e2d0ab;color:#e2d0ab}
+.hero-bottom{border-top-color:rgba(225,242,220,.25);color:#e4efdc}
+.about-section,.publications-section,.media-section{background:#fffefb}
+.research-section,.initiatives-section,.teaching-section,.background-section,.leadership-section{background:#edf2e9}
+.section-number,.research-icon,.project-date,.media-source,.timeline-date,.degree-date,.contact-eyebrow,.toolkit-kicker,.side-kicker{color:#527e61}
+.section-heading h2,.section-side h2{color:#173f2d}
+.section-heading>p,.about-copy>p:not(.lead){color:#587363}
+.section-side h2 em,.contact-section h2 em{color:#86a16a}
+.research-grid,.research-card,.projects-list,.project,.timeline-item,.degree{border-color:#cfddd2}
+.research-card:hover{background:#fffefa}
+.tags span{background:#dfe9d9;color:#3c6349}
+.pub-feature{background:#1a4837}
+.pub-feature-side{background:#285c45}
+.pub-feature-side>span,.feature-label{color:#c7debd}
+.pub-feature-main a{color:#d7e5ab}
+.pub-filter.active{background:#1b503a;color:#fff}
+.scholar-link,.project>a,.project-private,.paper-status,.year{color:#387957}
+.media-aside{background:#edf3e8}
+.info-panel{background:#fffefa}
+.contact-section{background:#183a2d}
+.contact-section p{color:#d9e7d7}
+.contact-shape .ring{border-color:#80a98c}.contact-dot{background:#c6a15b}
+.site-footer{background:#102c23}
+.site-footer .footer-sub{border-color:#3d5949}
+.profile-link-list a:hover{color:#3f7a57}
+@media(max-width:900px){
+ .hero-content{max-width:100%;grid-template-columns:200px minmax(0,1fr);column-gap:28px}
+ .hero-avatar{width:200px;height:306px}
+ .hero h1{font-size:20px}
+ .hero-intro{font-size:14px}
+}
+@media(max-width:650px){
+ .mobile-toggle span{background:#f6f2e9}
+ .nav-links{background:#183a2d}
+ .hero-content{grid-template-columns:122px minmax(0,1fr);column-gap:16px;row-gap:12px;padding:42px 0 46px}
+ .hero-avatar{width:122px;height:180px;border-radius:13px;grid-column:1;grid-row:2/4}
+ .hero-name{font-size:27px;grid-column:2;grid-row:2}
+ .hero h1{font-size:16px;grid-column:2;grid-row:3}
+ .hero-intro{grid-column:1/-1;grid-row:4;font-size:14px}
+ .hero-actions{grid-column:1/-1;grid-row:5}
+ .hero-socials{grid-column:1/-1;grid-row:6}
+}
+
 </style>
 </head>
 <body>
@@ -84,7 +152,7 @@ body{background:var(--paper)}
 <section class="hero" aria-labelledby="hero-heading">
   <div class="container hero-layout">
     <div class="hero-content"><div class="eyebrow"><span class="status-pip"></span> Research scientist · Oak Ridge National Laboratory</div>
-      <img class="hero-avatar" src="assets/abhilasha-headshot.jpg" width="132" height="132" alt="Portrait of Abhilasha Saroj"><p class="hero-name">Abhilasha J. Saroj, Ph.D.</p>
+      <img class="hero-avatar" src="assets/abhilasha-portrait-green.jpg" width="230" height="335" alt="Portrait of Abhilasha Saroj showing her upper body against a natural outdoor background"><p class="hero-name">Abhilasha J. Saroj, Ph.D.</p>
       <h1 id="hero-heading">Computational intelligence for <em>digital twins, transportation,</em> and interconnected infrastructure.</h1>
       <p class="hero-intro">I develop data-driven models, digital twins, and optimization methods to understand and improve transportation and interconnected infrastructure systems, with a focus on resilient, efficient, and sustainable communities.</p>
       <div class="hero-actions"><a class="btn btn-light" href="#research">Explore my research <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="Abhilasha_Saroj_CV.pdf" target="_blank">Request academic CV <span aria-hidden="true">↓</span></a></div>
