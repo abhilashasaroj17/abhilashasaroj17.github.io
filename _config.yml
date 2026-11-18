@@ -1,0 +1,5 @@
+title: "Abhilasha Saroj"
+description: "Academic research, digital twins, computational intelligence, and interconnected infrastructure"
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+timezone: America/New_York
